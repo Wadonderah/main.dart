@@ -31,6 +31,25 @@ dynamic getFirstElement(List list) {
   }
   return list[0];
 }
+// Task 7: Check if a number is even
+bool isEven(int number) {
+  return number % 2 == 0;
+}
+
+// Task 8: Find the maximum of two numbers
+int findMax(int a, int b) {
+  return (a > b) ? a : b;
+}
+
+// Task 9: Concatenate two strings
+String concatenateStrings(String str1, String str2) {
+  return str1 + str2;
+}
+
+// Task 10: Check if a list contains a specific element
+bool containsElement(List list, dynamic element) {
+  return list.contains(element);
+}
 
 void main() {
   
