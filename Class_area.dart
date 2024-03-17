@@ -20,4 +20,4 @@ void main() {
 
   // Calculating and printing the area
   print('Area of the rectangle: ${rectangle.calculateArea()} square units');
-}
+} 
