@@ -1,5 +1,4 @@
-import dart: math;
-
+import 'dart:math';
 class Area {
   // properties
   double length;
